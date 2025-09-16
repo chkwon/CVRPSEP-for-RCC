@@ -1,22 +1,14 @@
-# CVRPSEP for Row-and-Column-Generation with Cutting Planes
+# CVRPSEP-for-RCC
 
-A high-performance implementation for computing lower bounds of Capacitated Vehicle Routing Problem (CVRP) instances using the Gurobi optimization solver and the CVRPSEP package for separation of cutting planes.
+Code for finding the lower bound of CVRP instances using Gurobi and the CVRPSEP package. OBS: Currently only working for instances of EDGE_WEIGHT_TYPE: EUC_2D.
 
 ## Overview
 
-This project implements a row-and-column-generation approach with cutting plane separation to solve CVRP instances. The implementation leverages:
+This project implements a cutting plane algorithm with RCC separation to solve CVRP instances. The implementation leverages:
 
 - **Gurobi Optimizer**: For solving linear programming relaxations
 - **CVRPSEP Library**: For separating various classes of valid inequalities including capacity cuts, comb inequalities, and multi-star inequalities
 - **Euclidean 2D Instances**: Currently supports instances with `EDGE_WEIGHT_TYPE: EUC_2D`
-
-### Key Features
-
-- Automatic separation of multiple cut families (capacity, comb, multi-star, etc.)
-- Support for standard TSPLIB format CVRP instances
-- Comprehensive test suite with benchmark instances
-- Cross-platform CMake build system
-- Efficient memory management and constraint handling
 
 ## Prerequisites
 
