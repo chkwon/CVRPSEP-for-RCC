@@ -6,12 +6,15 @@
 #include <time.h>
 
 int main() {
-    const char* files[] = { "A-n54-k7", "A-n64-k9", "A-n80-k10",
-        "B-n50-k8", "B-n66-k9", "B-n68-k9",
-        "E-n51-k5", "E-n76-k7", "E-n76-k8", "E-n76-k10", "E-n76-k14", "E-n101-k8", "E-n101-k14",
-        "M-n101-k10", "M-n121-k7", 
-        "P-n50-k8", "P-n55-k10", "P-n70-k10", "P-n76-k5", "P-n101-k4"
-    };
+    // const char* files[] = { "A-n54-k7", "A-n64-k9", "A-n80-k10",
+    //     "B-n50-k8", "B-n66-k9", "B-n68-k9",
+    //     "E-n51-k5", "E-n76-k7", "E-n76-k8", "E-n76-k10", "E-n76-k14", "E-n101-k8", "E-n101-k14",
+    //     "M-n101-k10", "M-n121-k7", 
+    //     "P-n50-k8", "P-n55-k10", "P-n70-k10", "P-n76-k5", "P-n101-k4"
+    // };
+
+    const char* files[] = { "X-n261-k13" };
+
     int NoOfFiles = 20;
     for (int f = 0; f < NoOfFiles; f++) {
         const char* filename = files[f];
