@@ -7,7 +7,7 @@ OBS: Currently only working for instances of EDGE_WEIGHT_TYPE: EUC_2D.
 ### Using CMake (Recommended)
 ```bash
 mkdir build && cd build
-cmake ..
+cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 ```
 
