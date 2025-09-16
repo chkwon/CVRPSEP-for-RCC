@@ -1,8 +1,8 @@
 #include "load.h"
 #include "base_model.h"
-#include "cvrpsep\cnstrmgr.h"
-#include "cvrpsep\capsep.h"
-#include "cvrpsep\basegrph.h"
+#include "cvrpsep/cnstrmgr.h"
+#include "cvrpsep/capsep.h"
+#include "cvrpsep/basegrph.h"
 #include <time.h>
 
 int main() {

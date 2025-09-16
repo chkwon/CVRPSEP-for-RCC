@@ -6,7 +6,7 @@
 #ifndef _H_MEMMOD
 #define _H_MEMMOD
 
-#include <malloc.h>
+#include <stdlib.h>
 #include <inttypes.h>
 
 void* MemGet(long unsigned int NoOfBytes); 
