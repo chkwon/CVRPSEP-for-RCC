@@ -36,7 +36,13 @@ git clone https://github.com/yourusername/CVRPSEP-for-RCC.git
 cd CVRPSEP-for-RCC
 ```
 
-### 2. Build the Project
+
+### 2. Choose the CVRP Instances
+
+Modify the first line of `main()` in `src/main.cpp`.
+
+
+### 3. Build the Project
 
 Using CMake (recommended):
 
@@ -50,6 +56,9 @@ The build process will:
 - Automatically locate your Gurobi installation
 - Compile the CVRPSEP library
 - Create the executable `cvrp_solver`
+
+
+
 
 ## Configuration Details
 
