@@ -32,7 +32,7 @@ This project implements a cutting plane algorithm with RCC separation to solve C
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/CVRPSEP-for-RCC.git
+git clone https://github.com/chkwon/CVRPSEP-for-RCC.git
 cd CVRPSEP-for-RCC
 ```
 
