@@ -1,5 +1,5 @@
 #pragma once
-#include "PathToGurobi\win64\include\gurobi_c.h"
+#include <gurobi_c.h>
 #include <stdlib.h>
 #include <stdio.h>
 
