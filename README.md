@@ -57,6 +57,24 @@ The build process will:
 - Compile the CVRPSEP library
 - Create the executable `cvrp_solver`
 
+### 4. Run the Executable
+
+In the `build` directory, run:
+```bash
+./cvrp_solver
+```
+
+This should produce an output like:
+```
+X-n261-k13
+Initial Relaxation: 11413.000000
+Time Spent: 0.657546; Objective Value: 15665.916667
+Time Spent: 1.204169; Objective Value: 15996.500000
+Time Spent: 1.745577; Objective Value: 16058.500000
+Time Spent: 2.331380; Objective Value: 17252.000000
+Time Spent: 2.929176; Objective Value: 18342.500000
+...
+```
 
 
 
